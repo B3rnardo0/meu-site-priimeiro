@@ -1,0 +1,60 @@
+body {
+    background-image: url('Materia-Pedro-1024x576.webp');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Fonte padrão para o corpo */
+}
+
+header {
+    display: flex;
+    align-items: center; /* Alinha verticalmente ao centro */
+    padding: 10px 20px;
+    background-color: transparent; /* Transparente para o fundo da imagem de fundo */
+}
+
+img {
+    width: 60px; /* Ajuste o tamanho da imagem conforme necessário */
+    margin-right: 20px; /* Espaçamento entre a imagem e o título */
+}
+
+h1 {
+    color: white;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-size: calc(1.5rem + 3vw); /* Tamanho da fonte responsivo */
+    margin: 0; /* Remove a margem padrão do h1 */
+    flex: 1; /* Permite que o título ocupe o espaço restante */
+}
+
+nav {
+    margin-left: auto; /* Move a navegação para o lado direito */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Alinha os itens da lista horizontalmente */
+    gap: 10px; /* Espaçamento entre os botões */
+}
+
+nav ul li {
+    margin: 0;
+}
+
+a.button {
+    background: none;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: "Nerko One", cursive;
+    text-decoration: none; /* Remove o sublinhado do link */
+    display: inline-block; /* Faz o link se comportar como um botão */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Efeitos de transição */
+}

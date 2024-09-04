@@ -1,0 +1,88 @@
+body {
+    background-image: url('Materia-Pedro-1024x576.webp');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Fonte padrão para o corpo */
+}
+
+header {
+    display: flex;
+    align-items: center; /* Alinha verticalmente ao centro */
+    padding: 10px 20px;
+    background-color: transparent; /* Transparente para o fundo da imagem de fundo */
+}
+
+img {
+    width: 60px; /* Ajuste o tamanho da imagem conforme necessário */
+    margin-right: 20px; /* Espaçamento entre a imagem e o título */
+    cursor: pointer;
+}
+
+h1 {
+    color: white;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-size: calc(1.5rem + 3vw); /* Tamanho da fonte responsivo */
+    margin: 0; /* Remove a margem padrão do h1 */
+    cursor: pointer;
+}
+
+h2{
+    color: white;
+    font-family: "Nerko One", cursive;
+    font-weight: 100;
+    font-size: calc(1.5rem + 2vw);
+    margin: 0;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    min-height: calc(100vh - 70px); /* Garante que o main ocupe a altura restante da tela */
+    text-align: center; /* Centraliza o texto dentro do main */
+}
+
+form {
+    background: rgba(0, 0, 0, 0.897); /* Fundo semi-transparente para o formulário */
+    padding: 50px;
+    border-radius: 8px;
+    width: 400px; /* Largura do formulário */
+}
+
+input[type="email"], input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0; /* Espaçamento vertical entre os campos */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: red; /* Cor de fundo do botão */
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 300px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(236, 100, 100); /* Cor de fundo do botão ao passar o mouse */
+}
+
+h4 {
+    color: white;
+    font-family: "Nerko One", cursive;
+    margin: 0;
+    font-weight: 400;
+    text-align: left;
+}
